@@ -1,0 +1,26 @@
+Script started on 2023-12-08 19:14:22+09:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="205" LINES="14"]
+[?2004h]0;hikaru@mydell: ~/c/kadai5[01;32mhikaru@mydell[00m:[01;34m~/c/kadai5[00m$ exittime mpirun -np 1 ./kadai5
+[?2004ln =2000000000
+pi = 3.1415926535989525
+
+real	0m24.113s
+user	0m18.678s
+sys	0m0.100s
+[?2004h]0;hikaru@mydell: ~/c/kadai5[01;32mhikaru@mydell[00m:[01;34m~/c/kadai5[00m$ time mpirun -np 1 ./kadai5[1P ./kadai52 ./kadai5
+[?2004ln =2000000000^[[D              2000000000
+pi = 3.1415926535932464
+
+real	0m24.540s
+user	0m33.729s
+sys	0m0.160s
+[?2004h]0;hikaru@mydell: ~/c/kadai5[01;32mhikaru@mydell[00m:[01;34m~/c/kadai5[00m$ time mpirun -np 2 ./kadai5[1P ./kadai54 ./kadai5
+[?2004ln =2000000000
+pi = 3.1415926535909486
+
+real	0m11.355s
+user	0m36.320s
+sys	0m0.158s
+[?2004h]0;hikaru@mydell: ~/c/kadai5[01;32mhikaru@mydell[00m:[01;34m~/c/kadai5[00m$ exit
+[?2004lexit
+
+Script done on 2023-12-08 19:15:55+09:00 [COMMAND_EXIT_CODE="0"]

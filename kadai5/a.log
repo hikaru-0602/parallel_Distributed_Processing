@@ -1,0 +1,12 @@
+Script started on 2024-01-31 10:41:52+09:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="206" LINES="16"]
+[?2004h]0;hikaru@mydell: ~/c/kadai5[01;32mhikaru@mydell[00m:[01;34m~/c/kadai5[00m$ cd c[K./kadai5teisyutu.gochmod +x kadai5teisyutu.go[7P./kadai5teisyutu.gocd[K c[Ktime ,[K./kadai5
+[?2004ln =299999
+pi = 3.1415926535823542
+
+real	0m2.341s
+user	0m0.005s
+sys	0m0.036s
+[?2004h]0;hikaru@mydell: ~/c/kadai5[01;32mhikaru@mydell[00m:[01;34m~/c/kadai5[00m$ exit
+[?2004lexit
+
+Script done on 2024-01-31 10:42:33+09:00 [COMMAND_EXIT_CODE="0"]
